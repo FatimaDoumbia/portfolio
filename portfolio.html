@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio - Fatima Doumbia</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#accueil">Accueil</a> |
+    <a href="#apropos">À Propos</a> |
+    <a href="#travail">Travail</a> |
+    <a href="#cv">CV</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <hr>
+
+  <!-- ACCUEIL -->
+  <section id="accueil">
+    <h1>👩‍💻 Fatima Doumbia</h1>
+    <h3>Étudiante en Informatique | Développeuse Web et Mobile</h3>
+    <p>Bienvenue sur mon portfolio !</p>
+    <img src="photo.jpg" alt="Avatar de Fatima" width="150">
+  </section>
+
+  <hr>
+
+  <!-- À PROPOS -->
+  <section id="apropos">
+    <h2>📌 À Propos de Moi</h2>
+    <p>
+      Bonjour ! Je m'appelle <b>Fatima Doumbia</b>, étudiante en licence 3 Informatique.<br>
+      J'aime créer des applications web et mobiles et apprendre de nouvelles technologies.
+    </p>
+
+    <h3>🛠️ Mes compétences :</h3>
+    <ul>
+      <li>✅ HTML</li>
+      <li>✅ comptabilité</li>
+      <li>✅ SQL et bases de données</li>
+      <li>✅ javascript</li>
+    </ul>
+
+    <h3>🎓 Ma formation :</h3>
+    <ul>
+      <li>licence 3 developpement web</li>
+      <li>introduction to web development with ia skills</li>
+    </ul>
+
+    <h3>🎬 Ma présentation en vidéo :</h3>
+    <video width="400" controls>
+      <source src="presentation.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+  </section>
+
+  <hr>
+
+  <!-- TRAVAIL -->
+  <section id="travail">
+    <h2>💼 Mes Projets</h2>
+    <p>Voici les projets sur lesquels j'ai travaillé :</p>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+      <tr bgcolor="#dddddd">
+        <th>Projet</th>
+        <th>Technologies</th>
+        <th>Description</th>
+        <th>Lien</th>
+      </tr>
+      <tr>
+        <td><b>site Help Association</b></td>
+        <td>HTML, JS</td>
+        <td>plateforme d'aide des plus vulnerables</td>
+        <td><a href="#">Voir le projet</a></td>
+      </tr>
+      <tr bgcolor="#f9f9f9">
+        <td><b>site nettoyage</b></td>
+        <td>htML, Base de données</td>
+        <td>Gestion numérique des services de nettoyage</td>
+        <td><a href="#">Voir le projet</a></td>
+      </tr>
+      <tr>
+        <td><b>site vente parfums</b></td>
+        <td>html,css</td>
+        <td>plateforme de vente</td>
+        <td><a href="#">Voir le projet</a></td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- CV -->
+  <section id="cv">
+    <h2>📄 Mon CV</h2>
+    <p>Vous pouvez consulter et télécharger mon CV ici :</p>
+    <a href="cv-fatima.pdf" download>⬇️ Télécharger mon CV (PDF)</a>
+  </section>
+
+  <hr>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>✉️ Me Contacter</h2>
+    <p>Remplissez le formulaire ci-dessous pour m'envoyer un message :</p>
+
+    <form action="#" method="post">
+
+      <label for="nom"><b>Nom :</b></label><br>
+      <input type="text" id="nom" name="nom" placeholder="Votre nom" size="35"><br><br>
+
+      <label for="email"><b>Email :</b></label><br>
+      <input type="email" id="email" name="email" placeholder="votre@email.com" size="35"><br><br>
+
+      <label for="sujet"><b>Sujet :</b></label><br>
+      <select id="sujet" name="sujet">
+        <option value="">-- Choisir --</option>
+        <option value="stage">Stage</option>
+        <option value="projet">Collaboration sur un projet</option>
+        <option value="autre">Autre</option>
+      </select><br><br>
+
+      <label for="message"><b>Message :</b></label><br>
+      <textarea id="message" name="message" rows="6" cols="40" placeholder="Votre message..."></textarea><br><br>
+
+      <input type="submit" value="📨 Envoyer le message">
+
+    </form>
+  </section>
+
+  <hr>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><b>© 2024 Fatima Doumbia</b> — Tous droits réservés</p>
+    <p>📧 Email : <a href="mailto:fatima@email.com">fatima@email.com</a></p>
+    <p>🐙 GitHub : <a href="https://github.com/" target="_blank">github.com/fatima</a></p>
+  </footer>
+
+</body>
+</html>
